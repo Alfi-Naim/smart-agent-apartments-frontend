@@ -1,0 +1,91 @@
+.app {
+  height: 100vh;
+  background: #c5e4e8;
+  color: #5b8283;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100vw;
+}
+
+.form__input {
+  padding: 5px 10px;
+  outline: none;
+  background-color: #f4fafa;
+  border-radius: 5px;
+  border: 1px solid #f4fafa;
+  color: #5b8282;
+  font-size: 20px;
+  font-family: Varela Round,sans-serif;
+  direction: rtl;
+}
+
+.form__select {
+  padding: 5px 10px;
+  outline: none;
+  background-color: #f4fafa;
+  border-radius: 5px;
+  border: 1px solid #f4fafa;
+  color: #5b8282;
+  font-size: 20px;
+  font-family: Varela Round,sans-serif;
+  direction: rtl;
+}
+
+.form__button {
+  background-color: #f4fafa;
+  border: 2px solid #f4fafa;
+  border-radius: 5px;
+  color: #658292;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Varela Round,sans-serif;
+  direction: rtl;
+}
+
+@media screen and (max-width: 1050px) {
+
+  .form {
+    width: 60%;
+    flex-direction: column;
+  }
+
+  .title {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .main {
+    gap: 16px;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+
+  .form {
+    width: 90vw;
+  }
+
+}
