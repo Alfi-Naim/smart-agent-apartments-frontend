@@ -1,6 +1,6 @@
 # Smart agent - apartments
 
-- Link to the **[Backend](https://github.com/Alfi-Naim/smart-agent-apartments-backend)**
+- Link to the **[Backend](https://github.com/Alfi-Naim/smart-agent-backend)**
 
 ## Project overview
 
